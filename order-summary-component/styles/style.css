@@ -1,0 +1,113 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  border: 0px;
+  background-color: #e0e8ff;
+}
+
+.main {
+  border-width: 1px;
+  width: 423px;
+  padding-left: 494px;
+  padding-top: 84px;
+}
+
+.main p {
+  font-family: 'Red Hat Display', sans-serif;
+  text-align: center;
+}
+
+.main .details {
+  color: gray;
+}
+
+.content {
+  height: 550px;
+  background-color: white;
+}
+
+.content .hero_pic {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 423px;
+  height: 184px;
+}
+
+.plan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #f5f7ff;
+  border-radius: 15px;
+  background-color: #f5f7ff;
+  width: 354px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 15px 0px 15px 47px;
+  width: 350px;
+  height: 90px;
+  padding-left: 25px;
+}
+
+.plan p {
+  margin: 0px;
+  margin-bottom: 5px;
+  width: 100px;
+}
+
+.plan .change_button {
+  padding-left: 100px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.plan .change_button a {
+  color: #3829e0;
+}
+
+.plan .change_button:hover {
+  opacity: 0.7;
+}
+
+.plan .plan_description {
+  padding-left: 10px;
+}
+
+.plan .plan_description .price {
+  color: gray;
+}
+
+.proceed {
+  color: White;
+  border-radius: 15px;
+  background-color: #3829e0;
+  font-size: 16px;
+  font-family: 'Red Hat Display', sans-serif;
+  width: 354px;
+  margin: 15px 0px 15px 47px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  vertical-align: top;
+  font-weight: 800;
+}
+
+.proceed:hover {
+  opacity: 0.7;
+}
+
+.cancel {
+  font-size: 16px;
+  color: #7280a7;
+  text-align: center;
+  padding: 0px 0px 0px 180px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 800;
+}
+
+.cancel:hover {
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */
